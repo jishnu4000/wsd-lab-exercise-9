@@ -10,7 +10,7 @@ function Login() {
     e.preventDefault();
     if (username && password) {
       alert(`Welcome, ${username}!`);
-      navigate('/dog');
+      navigate('/images');
     } else {
       alert('Please enter both username and password');
     }
